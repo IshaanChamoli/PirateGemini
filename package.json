@@ -1,0 +1,19 @@
+{
+  "name": "pirategemini",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "markdown-it": "^14.1.0"
+  }
+}
