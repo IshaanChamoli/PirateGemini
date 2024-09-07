@@ -42,9 +42,9 @@ export const aiDiv = (data) => {
   return `
   <!-- AI Chat -->
   <div class="flex gap-2 justify-end">
-    <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md shadow-md whitespace-pre-wrap break-words" style="width: 100vw;">
+    <p class="bg-gemRegular/40 text-gemDeep p-1 rounded-md shadow-md whitespace-pre-wrap break-words">
       ${data}
-    </pre>
+    </p>
     <img
       src="chat-bot.jpg"
       alt="user icon"
@@ -69,7 +69,7 @@ async function handleSubmit(event) {
 
   const aiResponse = await getResponse(prompt);
   let md_text = md().render(aiResponse); 
-  chatArea.innerHTML += aiDiv(md_text); //change to md_text for including markdown, but that seems to cause some issues with words outside of visible screen for long responses.
+  chatArea.innerHTML += aiDiv(aiResponse); //change to md_text for including markdown, but that seems to cause some issues with words outside of visible screen for long responses.
 
   // let newUserRole = {
   //   role: "user",
