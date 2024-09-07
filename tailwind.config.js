@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["*.html"],
+  content: ["*.html", "*.js"],
   theme: {
     extend: {
       colors: {
         gemLight: "#e5f5e0",
         gemRegular: "#a1d99b",
         gemDeep: "#31a354",
-      }
+      },
     },
   },
   plugins: [],
-}
+};
 
