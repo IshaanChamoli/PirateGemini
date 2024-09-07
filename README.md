@@ -1,2 +1,4 @@
-Built a custom frontend anf prompt to use with the Gemini Chatbot, so it replies as a pirate each time!
-Built to experiment with with the Gemini API for chatbots. If PirateGemini doesn't seem to be responding, please reload the page and try again.
+Built a custom frontend to use with the Gemini Chatbot, and made it so that it replies as a pirate when assisting you!
+If PirateGemini doesn't seem to be responding, please reload the page and try again.
+
+~ Built to experiment with Google's Gemini API for chatbots.
