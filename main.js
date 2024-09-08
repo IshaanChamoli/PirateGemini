@@ -21,9 +21,6 @@ async function getResponse(prompt) {
   } catch (e) {
     return "Error connecting to server. Please reload the page and try again!"
   }
-
-
-
 }
 
 
