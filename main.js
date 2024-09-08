@@ -12,9 +12,13 @@ let all_history = [];
 
 async function getResponse(prompt) {
   // Prompt engineering for College Counselor version: Act and serve as my college counselor, help me write my essays... below you will get my resume details, write an essay for me to send to universities, BUT, leave specific blanks in between where i should add my own creativity, and in what way... Here are my resume details... + prompt
-  const chat = model.startChat({ history: all_history });
-  const message = await chat.sendMessage("Respond to the following prompt like in a pirate tone:" + prompt);
-  const text = message.response.candidates[0].content.parts[0].text
+  
+  
+    const chat = model.startChat({ history: all_history });
+    const message = await chat.sendMessage("Talk like an old grandma, but dont unessecarily talk more than you usually would, restrict your grandma tone to the first 2 sentences" + prompt);
+    const text = message.response.candidates[0].content.parts[0].text
+  
+  
   return text;
 }
 
