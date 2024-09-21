@@ -5,3 +5,6 @@ If PirateGemini doesn't seem to be responding, please reload the page and try ag
 
 ~ Built to experiment with Google's Gemini API for chatbots.
 
+
+<img width="1468" alt="Screenshot 2024-09-21 at 4 23 48 PM" src="https://github.com/user-attachments/assets/14cccaa0-1411-4288-bc58-6e0217a4a21f">
+
